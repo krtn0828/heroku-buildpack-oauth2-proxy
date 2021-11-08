@@ -33,7 +33,7 @@ Then, create a new Heroku application and set the buildpacks:
 ```console
 heroku create
 heroku buildpacks:set https://github.com/heroku/heroku-buildpack-static.git
-heroku buildpacks:add cfra/oauth2-proxy
+heroku buildpacks:add krtn0828/oauth2-proxy
 ```
 
 You need an account for the proxy so that it can interface with your OAuth2 provider.

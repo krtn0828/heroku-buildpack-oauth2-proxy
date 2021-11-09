@@ -24,7 +24,7 @@ you might also skip ahead to the [usage section](#usage-with-other-applications)
 First, clone the example branch and switch into it:
 
 ```console
-git clone https://github.com/cfra/heroku-buildpack-oauth2-proxy -b example-static oauth2-example
+git clone https://github.com/krtn0828/heroku-buildpack-oauth2-proxy -b example-static oauth2-example
 cd oauth2-example
 ```
 

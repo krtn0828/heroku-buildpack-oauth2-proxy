@@ -3,7 +3,7 @@
 set -eo pipefail
 
 OAUTH2_PROXY_VERSION="v7.2.0"
-OAUTH2_PROXY_CHECKSUM="61ddf58016fdb391ecc29b115202fdc4abac6575579a7ac1ea9afe7c7a85eb26"
+OAUTH2_PROXY_CHECKSUM="db0f19b7d5533aecdbb352d0bbbf26a85733b74729d74a68babe7b3d7a69496b"
 
 BP_DIR="$(cd $(dirname "$0"); pwd)"
 BUILD_DIR="$1"

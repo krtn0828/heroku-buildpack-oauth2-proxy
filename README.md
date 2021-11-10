@@ -58,7 +58,7 @@ and provide a secret key for encrypting the session cookies:
 ```console
 heroku config:set OAUTH2_PROXY_PROVIDER=github
 heroku config:set OAUTH2_PROXY_COOKIE_SECRET=$(python -c \
-    'from secrets import token_urlsafe; print(token_urlsafe(32)[:32])' \
+    "from secrets import token_urlsafe; print(token_urlsafe(32)[:32])" \
 )
 ```
 

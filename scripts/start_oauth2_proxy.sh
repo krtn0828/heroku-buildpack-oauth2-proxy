@@ -4,7 +4,7 @@ set -e
 
 cd "$(dirname "$0")"
 
-nano authenticated-emails-file
+cat <<EOS > authenticated-emails-file
 
 if [ -z ${PORT+x} ]; then echo "please set PORT"; exit 1; fi
 if [ -z ${OAUTH2_PROXY_PROVIDER+x} ]; then echo "please set OAUTH2_PROXY_PROVIDER"; exit 1; fi
